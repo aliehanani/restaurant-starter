@@ -1,6 +1,7 @@
 {
-  "title": "BLT",
-  "price": 10,
+  "title": "Kofta",
+  "price": 15,
   "description": "Bacon, Lettuce, Tomato, Avocado, & Mayo, served on Toasted Multigrain",
-  "menu_category": "Lunch"
+  "menu_category": "Meal",
+  "notes": "4 pieces"
 }
