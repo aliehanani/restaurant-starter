@@ -52,7 +52,7 @@
 						<h2 class="text-3xl lg:text-4xl font-black">About Us</h2>
 						<p
 							class="text-lg py-4"
-						>If you are looking for a place in Columbus, OH where you can kick back and have good food and drinks, drop by South Village Grille. Located in the heart of the bustling neighborhood of German Village, our restaurant boasts a Modern American menu that is rooted in European cooking techniques. We offer a range of dishes that everyone can enjoy, including pizzas, steaks, and fresh oysters.</p>
+						>If you are looking for a place in Kuala Lumpur where you can kick back and have good food and drinks, drop by Afghan Kitchen. Located in the heart of the bustling neighborhood of Ampang, our restaurant boasts a Traditional Afganistan menu that is rooted in Afghan cooking techniques. We offer a range of dishes that everyone can enjoy, including rice, appetizers, and warm tea.</p>
 						<nuxt-link
 							to="/about"
 							class="inline-flex items-center"
@@ -81,7 +81,7 @@
 			<ul class="pt-4 auto-sized-grid">
 				<li v-for="i in 8" :key="i">
 					<img
-						:src="`https://source.unsplash.com/random//600/400/?malyasia=${i}`"
+						:src="`https://source.unsplash.com/random//600x400/?malyasia=${i}`"
 						:alt="`Image ${i} from Unsplash.com`"
 						loading="lazy"
 					/>
