@@ -152,14 +152,14 @@ collections:
           widget: 'image',
           required: false,
         }
-       - {
-           label: 'Layout',
-           name: 'layout',
-           widget: 'relation',
-           collection: 'pagelayouts',
-           searchFields: ['title'],
-           valueField: 'title',
-           displayFields: ['title'],
-           required: false,
-         }
+       # - {
+      #     label: 'Layout',
+      #     name: 'layout',
+      #     widget: 'relation',
+      #     collection: 'pagelayouts',
+      #     searchFields: ['title'],
+      #     valueField: 'title',
+      #     displayFields: ['title'],
+      #     required: false,
+      #   }
       - { label: 'Body', name: 'body', widget: 'markdown' }
