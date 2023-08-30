@@ -81,8 +81,8 @@
 			<ul class="pt-4 auto-sized-grid">
 				<li v-for="i in 8" :key="i">
 					<img
-						:src="`https://picsum.photos/600/400?random=${i}`"
-						:alt="`Sample image ${i} from Unsplash.com`"
+						:src="`https://source.unsplash.com/random/900×700/?malyasia=${i}`"
+						:alt="`Image ${i} from Unsplash.com`"
 						loading="lazy"
 					/>
 				</li>
